@@ -22,8 +22,8 @@ public class Tau_Domingo {
         System.out.println("Name: " + mcName);
         System.out.println("Genre: " + mcGenre);
         System.out.println("Years since release: " + mcAge + "\n");
-        
-        
+        System.out.println("Five Nights At Freddy's and Minecraft have the same genre: False");
+        System.out.println("");
 }
 
 }
