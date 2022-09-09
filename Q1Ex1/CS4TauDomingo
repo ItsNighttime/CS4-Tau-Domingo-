@@ -1,5 +1,5 @@
-package ex01.tau.domingo;
-public class Ex01TauDomingo {
+package tau_domingo;
+public class Tau_Domingo {
     public static void main(String[] args) {
         String hkName = "Hollow Knight";
         String hkGenre = "Metroidvania";
@@ -10,6 +10,20 @@ public class Ex01TauDomingo {
         String mcName = "Minecraft";
         String mcGenre = "Sandbox";
         var mcAge = 11;
-    }
-    
+        System.out.println("Game 1:");
+        System.out.println("Name: " + hkName);
+        System.out.println("Genre: " + hkGenre);
+        System.out.println("Years since release: " + hkAge + "\n");
+        System.out.println("Game 2:");
+        System.out.println("Name: " + fnafName);
+        System.out.println("Genre: " + fnafGenre);
+        System.out.println("Years since release: " + fnafAge + "\n");
+        System.out.println("Game 3:");
+        System.out.println("Name: " + mcName);
+        System.out.println("Genre: " + mcGenre);
+        System.out.println("Years since release: " + mcAge + "\n");
+        
+        
+}
+
 }
