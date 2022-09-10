@@ -23,7 +23,7 @@ public class Tau_Domingo {
         System.out.println("Genre: " + mcGenre);
         System.out.println("Years since release: " + mcAge + "\n");
         System.out.println("Five Nights At Freddy's and Minecraft have the same genre: False");
-        System.out.println("");
+        System.out.println("Hollow Knight and Minecraft have the same genre: False");
+        System.out.println("Minecraft is older than Five Nights at Freddy's: True");
 }
-
 }
