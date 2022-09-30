@@ -1,0 +1,19 @@
+package ex03taudomingo;
+public class Singer {
+    String name;
+    int noOfPerformances;
+    double earnings;
+    Song favoriteSong;
+    int noOfPeople;
+    public Singer(String n, int perform, double m, Song s, int p){
+        name = n;
+        noOfPerformances = perform;
+        earnings = m;
+        favoriteSong = s;
+        noOfPeople = p;
+}
+    public void performForAudience(){
+        noOfPerformances += 1;
+        earnings += (100 * noOfPeople);
+    }
+}
