@@ -19,5 +19,7 @@ public class Singer {
         earnings += (100 * noOfPeople);
     }
     public void performForAudience(int noSingers){
+        noOfPerformances += 1;
+        earnings += ((100 * noOfPeople)/noSingers);
     }
 }
