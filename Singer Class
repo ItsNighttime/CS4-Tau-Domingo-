@@ -1,5 +1,6 @@
 package ex03taudomingo;
 public class Singer {
+    private static int totalPerformances = 0;
     String name;
     int noOfPerformances;
     double earnings;
@@ -11,9 +12,12 @@ public class Singer {
         earnings = m;
         favoriteSong = s;
         noOfPeople = p;
+        totalPerformances++;
 }
     public void performForAudience(){
         noOfPerformances += 1;
         earnings += (100 * noOfPeople);
+    }
+    public void performForAudience(int noSingers){
     }
 }
